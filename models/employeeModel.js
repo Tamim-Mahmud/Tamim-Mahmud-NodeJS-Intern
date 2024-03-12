@@ -11,12 +11,12 @@ const employeeSchema = mongoose.Schema({
     },
     email: {
         type: String,
-        required: [true,"Please enter the employee's email"],
+        required: [true, "Please enter the employee's email"],
         unique: true
     },
     phoneNumber: {
         type: String,
-        required: [true, "Please enter the employee's phone number"]
+        required: [true,"Please enter the employee's phone number"]
     },
     blocked: {
         type: Boolean,
